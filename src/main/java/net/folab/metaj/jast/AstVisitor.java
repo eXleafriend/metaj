@@ -1,4 +1,4 @@
-package net.folab.fo.jast;
+package net.folab.metaj.jast;
 
 public interface AstVisitor {
 

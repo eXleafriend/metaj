@@ -1,11 +1,11 @@
-package net.folab.fo.jast;
+package net.folab.metaj.jast;
 
 import java.util.ArrayList;
 import java.util.List;
 
-import net.folab.fo.bytecode.Access;
-import net.folab.fo.bytecode.Java;
-import net.folab.fo.bytecode.JavaType;
+import net.folab.metaj.bytecode.Access;
+import net.folab.metaj.bytecode.Java;
+import net.folab.metaj.bytecode.JavaType;
 
 public class ClassDeclaration {
 

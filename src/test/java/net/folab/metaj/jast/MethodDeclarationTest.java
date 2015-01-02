@@ -1,4 +1,4 @@
-package net.folab.fo.jast;
+package net.folab.metaj.jast;
 
 import static org.hamcrest.Matchers.*;
 import static org.junit.Assert.*;
@@ -6,13 +6,15 @@ import static org.junit.Assert.*;
 import java.lang.reflect.InvocationTargetException;
 import java.lang.reflect.Method;
 
-import net.folab.fo.bytecode.ByteArrayClassLoader;
-import net.folab.fo.bytecode.Java;
-import net.folab.fo.bytecode.JavaType;
-import net.folab.fo.jast.AstVisitor;
-import net.folab.fo.jast.AstWriter;
-import net.folab.fo.jast.Literal;
-import net.folab.fo.jast.Return;
+import net.folab.metaj.bytecode.ByteArrayClassLoader;
+import net.folab.metaj.bytecode.Java;
+import net.folab.metaj.bytecode.JavaType;
+import net.folab.metaj.jast.AstVisitor;
+import net.folab.metaj.jast.AstWriter;
+import net.folab.metaj.jast.ClassDeclaration;
+import net.folab.metaj.jast.Literal;
+import net.folab.metaj.jast.MethodDeclaration;
+import net.folab.metaj.jast.Return;
 
 import org.junit.After;
 import org.junit.Before;

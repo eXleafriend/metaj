@@ -1,7 +1,9 @@
-package net.folab.fo.bytecode;
+package net.folab.metaj.bytecode;
 
 import static org.junit.Assert.*;
 import static org.hamcrest.Matchers.*;
+import net.folab.metaj.bytecode.JavaType;
+import net.folab.metaj.bytecode.StatementContext;
 
 import org.junit.After;
 import org.junit.Before;

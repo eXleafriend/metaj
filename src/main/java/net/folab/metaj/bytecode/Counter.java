@@ -1,4 +1,4 @@
-package net.folab.fo.bytecode;
+package net.folab.metaj.bytecode;
 
 public class Counter {
 

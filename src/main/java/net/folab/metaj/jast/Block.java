@@ -1,4 +1,4 @@
-package net.folab.fo.jast;
+package net.folab.metaj.jast;
 
 import java.util.ArrayList;
 import java.util.Collections;

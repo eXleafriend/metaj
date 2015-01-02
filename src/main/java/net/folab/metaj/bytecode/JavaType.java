@@ -1,4 +1,4 @@
-package net.folab.fo.bytecode;
+package net.folab.metaj.bytecode;
 
 import java.util.Arrays;
 

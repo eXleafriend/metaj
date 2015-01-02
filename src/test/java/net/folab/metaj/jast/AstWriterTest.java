@@ -1,10 +1,11 @@
-package net.folab.fo.jast;
+package net.folab.metaj.jast;
 
 import static org.junit.Assert.*;
 import static org.hamcrest.CoreMatchers.*;
-import net.folab.fo.bytecode.ByteArrayClassLoader;
-import net.folab.fo.bytecode.Java;
-import net.folab.fo.jast.AstWriter;
+import net.folab.metaj.bytecode.ByteArrayClassLoader;
+import net.folab.metaj.bytecode.Java;
+import net.folab.metaj.jast.AstWriter;
+import net.folab.metaj.jast.ClassDeclaration;
 
 import org.junit.After;
 import org.junit.Before;

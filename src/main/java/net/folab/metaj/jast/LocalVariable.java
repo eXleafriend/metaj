@@ -1,7 +1,7 @@
-package net.folab.fo.jast;
+package net.folab.metaj.jast;
 
-import net.folab.fo.bytecode.JavaType;
-import net.folab.fo.bytecode.StatementContext;
+import net.folab.metaj.bytecode.JavaType;
+import net.folab.metaj.bytecode.StatementContext;
 
 import org.objectweb.asm.MethodVisitor;
 
