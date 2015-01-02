@@ -5,6 +5,7 @@ MetaJ provides meta-programming in Java.
 
 *Following code is just draft*
 
+    ```java
     beginCode();
     
     package_("foo.bar");
@@ -34,3 +35,4 @@ MetaJ provides meta-programming in Java.
     Constructor<Callable<String>> ctor = genClass.getConstructor(String.class);
     Callable<String> callable = ctor.newInstance("MetaJ");
     System.out.println(callable.call());
+   ```
