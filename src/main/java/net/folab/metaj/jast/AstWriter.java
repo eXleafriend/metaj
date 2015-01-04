@@ -61,7 +61,7 @@ public class AstWriter implements AstVisitor, Opcodes {
     }
 
     @Override
-    public void visitField(MemberDeclaration md) {
+    public void visitField(FieldDeclaration md) {
         String desc = md.type.getDescName();
 
         int modifier = md.access.modifier;

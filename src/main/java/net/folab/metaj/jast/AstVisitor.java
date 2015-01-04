@@ -4,7 +4,7 @@ public interface AstVisitor {
 
     public void visitClass(ClassDeclaration cd);
 
-    public void visitField(MemberDeclaration md);
+    public void visitField(FieldDeclaration md);
 
     public void visitMethod(MethodDeclaration md);
 
